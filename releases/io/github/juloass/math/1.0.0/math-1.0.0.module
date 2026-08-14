@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.juloass",
+    "module": "math",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "math-1.0.0.jar",
+          "url": "math-1.0.0.jar",
+          "size": 26621,
+          "sha512": "2a745d944b76c7c627fd03f99da9199e26c66d50c0dbba12e99d7f551c2c0a5b7f5a77d1ad005f6c05f3767c4a9afde4440e1009901d14c21f3d85d8392e0603",
+          "sha256": "0e666edddaca9a2b7d01568d928be829e7dec1a319497a5a3d00e436b7afeb1d",
+          "sha1": "5d3257a523d79838572ce473f209d51f21404ddf",
+          "md5": "0ffafb388a64d52594796069d324abdb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "math-1.0.0.jar",
+          "url": "math-1.0.0.jar",
+          "size": 26621,
+          "sha512": "2a745d944b76c7c627fd03f99da9199e26c66d50c0dbba12e99d7f551c2c0a5b7f5a77d1ad005f6c05f3767c4a9afde4440e1009901d14c21f3d85d8392e0603",
+          "sha256": "0e666edddaca9a2b7d01568d928be829e7dec1a319497a5a3d00e436b7afeb1d",
+          "sha1": "5d3257a523d79838572ce473f209d51f21404ddf",
+          "md5": "0ffafb388a64d52594796069d324abdb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "math-1.0.0-sources.jar",
+          "url": "math-1.0.0-sources.jar",
+          "size": 12536,
+          "sha512": "a26ce256ffdb61f192bd804c81e9d634235708786db1ee576d831d1e9eeab9ef4082cfd26d3af37f91a975f1f5b5923d069846292027b47a95f2903126f8c3f8",
+          "sha256": "90b297115bc2119827e6dfb46377d55be9179afc3dc82b1daa24f892ebb34988",
+          "sha1": "219c836ac37b17f1d473896c06efd572427411a0",
+          "md5": "2a27a4665f8326f2b45e413d47edefd2"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "math-1.0.0-javadoc.jar",
+          "url": "math-1.0.0-javadoc.jar",
+          "size": 131189,
+          "sha512": "6ee7abb48ce93c7964c871a2424e4ae66826164e0d6ddfc4cf222d39fca96c9bcf79b95f1b1ef5953b429534b82686da588b0ad8396b8a590e62dccc65d8164d",
+          "sha256": "7d51958ef77d19372864d05d9e79b6571b6385aea71aacf50e874a59c0c557d9",
+          "sha1": "0a7b37541fe520f2fb3bd90add74897f6c0c4914",
+          "md5": "0ad14fde1cc5aee0efd07f6f46a17a9f"
+        }
+      ]
+    }
+  ]
+}
