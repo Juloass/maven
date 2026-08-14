@@ -27,11 +27,11 @@
         {
           "name": "color-1.0.1.jar",
           "url": "color-1.0.1.jar",
-          "size": 261,
-          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
-          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
-          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
-          "md5": "f43436d6bec321290f6af228ad602604"
+          "size": 45789,
+          "sha512": "1831d0c7ed6f60db97117473d67dba163b56f69eb243bb7e107523ff0575dcbbe2e4b53abf3a0c35bb87be8ca7d43966ce4225bce023a43227d2a93437cc233c",
+          "sha256": "73ea62ff9083742db0321a75ad467cc10ba6b461c8b164b63b7212dcba3802a9",
+          "sha1": "f58a0c88ff0b747b230ab169253cc9bdff96fcec",
+          "md5": "c24df97e45270e3d61b6e83bd3295832"
         }
       ]
     },
@@ -46,7 +46,7 @@
       },
       "dependencies": [
         {
-          "group": "com.github.Juloass",
+          "group": "io.github.juloass",
           "module": "math",
           "version": {
             "requires": "1.0.0"
@@ -57,11 +57,11 @@
         {
           "name": "color-1.0.1.jar",
           "url": "color-1.0.1.jar",
-          "size": 261,
-          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
-          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
-          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
-          "md5": "f43436d6bec321290f6af228ad602604"
+          "size": 45789,
+          "sha512": "1831d0c7ed6f60db97117473d67dba163b56f69eb243bb7e107523ff0575dcbbe2e4b53abf3a0c35bb87be8ca7d43966ce4225bce023a43227d2a93437cc233c",
+          "sha256": "73ea62ff9083742db0321a75ad467cc10ba6b461c8b164b63b7212dcba3802a9",
+          "sha1": "f58a0c88ff0b747b230ab169253cc9bdff96fcec",
+          "md5": "c24df97e45270e3d61b6e83bd3295832"
         }
       ]
     },
@@ -77,11 +77,11 @@
         {
           "name": "color-1.0.1-sources.jar",
           "url": "color-1.0.1-sources.jar",
-          "size": 683,
-          "sha512": "1b202b49bb9bcd8a0205a2da5b848dc9cd6b1a2db8b9f7faea92aec0759adb44f497c8c213f6489f67ad2329555172550af0b2ce1edf28512cffc27e4e8caffb",
-          "sha256": "6cffed809d24a9976938a11a1e8cb663c523abf6d6eec5c4f6a09d7e3b5d9891",
-          "sha1": "2db88e6a2b0aca5db7e400e9d77ceb5dedcbecdf",
-          "md5": "384b667fa2e55fa9749fb1b46374a80b"
+          "size": 13071,
+          "sha512": "7c9218a61abdcc06b5caadb7668f9e6519e2d3327da86b26cc77a11314636d5413b2d54c24d45d13bca2ace8625af396c9e130bfb2b1d7eda779b6ff9bffb066",
+          "sha256": "0945f7a0b47dbfc130ac1488759b49f63adadfc2292f84c2a892555371c0ea68",
+          "sha1": "10bf26534cb777d49fff5a1c10bac37e6b624af4",
+          "md5": "de21d768c941e8579cd9efb351f3fd69"
         }
       ]
     },
@@ -97,11 +97,11 @@
         {
           "name": "color-1.0.1-javadoc.jar",
           "url": "color-1.0.1-javadoc.jar",
-          "size": 261,
-          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
-          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
-          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
-          "md5": "f43436d6bec321290f6af228ad602604"
+          "size": 165919,
+          "sha512": "1b568b524a6a58ce7877bfb48169fa9cfa3a5cbbd902af6af868c904c651bab7c41ede48b12a54b098f19411181233bbcd3e4e8049c9eed3797f6833204570d4",
+          "sha256": "6be8f7c1f029cd42d1f5de6618db00566bfdf0d3fa4a2eb93b32a3fbce9a6612",
+          "sha1": "6e7e7d155828b8c1908121e7217b1abef29ce9ec",
+          "md5": "8f771195e7d0d42df2a3163c6d910be2"
         }
       ]
     }

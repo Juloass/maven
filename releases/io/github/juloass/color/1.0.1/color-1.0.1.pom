@@ -14,7 +14,7 @@
   <description>Color values, color-space conversion, and color operations.</description>
   <dependencies>
     <dependency>
-      <groupId>com.github.Juloass</groupId>
+      <groupId>io.github.juloass</groupId>
       <artifactId>math</artifactId>
       <version>1.0.0</version>
       <scope>runtime</scope>
