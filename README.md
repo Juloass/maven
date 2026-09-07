@@ -34,3 +34,9 @@ Published coordinates:
 - `io.github.juloass:localization-core:0.1.0`
 - `io.github.juloass:localization-json:0.1.0`
 - `io.github.juloass:localization-resource:0.1.0`
+- `io.github.juloass.tofuxia-engine:engine-core:0.1.0`
+- `io.github.juloass.tofuxia-engine:render-api:0.1.0`
+- `io.github.juloass.tofuxia-engine:engine-ui:0.1.0`
+- `io.github.juloass.tofuxia-engine:vulkan-renderer:0.1.0`
+- `io.github.juloass.tofuxia-engine:engine-app:0.1.0`
+- `io.github.juloass.tofuxia-engine:engine-desktop:0.1.0`
