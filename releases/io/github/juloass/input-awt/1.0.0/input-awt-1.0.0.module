@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.juloass",
+    "module": "input-awt",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass",
+          "module": "input-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "input-awt-1.0.0.jar",
+          "url": "input-awt-1.0.0.jar",
+          "size": 8650,
+          "sha512": "b96409478044a1734aa498807572f9d9f2fd4871a6552175db9ec07c4066c05e296d1a50c0a355deee06b0f0eb623cc69f1d4c7c0b90322f63abe50571ea0e01",
+          "sha256": "a494861bba844daab2e86044723d02804740bb1cbd3bc151636e54e76e25273f",
+          "sha1": "b42e3f6e258c09cf84c6b8e203f24b302d0fc0c1",
+          "md5": "705915924138b853d875cfb81857c5ee"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass",
+          "module": "input-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "input-awt-1.0.0.jar",
+          "url": "input-awt-1.0.0.jar",
+          "size": 8650,
+          "sha512": "b96409478044a1734aa498807572f9d9f2fd4871a6552175db9ec07c4066c05e296d1a50c0a355deee06b0f0eb623cc69f1d4c7c0b90322f63abe50571ea0e01",
+          "sha256": "a494861bba844daab2e86044723d02804740bb1cbd3bc151636e54e76e25273f",
+          "sha1": "b42e3f6e258c09cf84c6b8e203f24b302d0fc0c1",
+          "md5": "705915924138b853d875cfb81857c5ee"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "input-awt-1.0.0-sources.jar",
+          "url": "input-awt-1.0.0-sources.jar",
+          "size": 4059,
+          "sha512": "3be12782c184d22e847b9d8924f45b063b17b14bd5ca85accab50e71337fd951b84b03c4bd28b17016424c80ca0ad06e6a050a1eb9ca27d0d820e1fe0e380177",
+          "sha256": "105e24969f8852894131cc5996b1721f898ececbba7a855d65ed23045284416b",
+          "sha1": "72fe9afb7db681c0d25a21bd5999ff04fe64c91d",
+          "md5": "fb6925f8186f16a226e95d7165fe12f1"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "input-awt-1.0.0-javadoc.jar",
+          "url": "input-awt-1.0.0-javadoc.jar",
+          "size": 87399,
+          "sha512": "6a4d1491039d57a435a0103bf31fdc6410076180941bc20073569e2e8859049ab11c4936e3950dc2d2bedf1cccc0c3eb6515d1786ecd9f9649d1b3679b54b368",
+          "sha256": "8e52602558362e628245bad4d14a6286163e93fac7213b606d8501e6a9403f0d",
+          "sha1": "14e88e2a17464e27ca01f01fda7dd15a90a7ed99",
+          "md5": "799390b0a0feb3c2787a1bb74c4b00b7"
+        }
+      ]
+    }
+  ]
+}

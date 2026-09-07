@@ -21,6 +21,7 @@ Published coordinates:
 - `io.github.juloass:resource-pack:1.0.0`
 - `io.github.juloass:resource-source-directory:1.0.0`
 - `io.github.juloass:resource-source-generated:1.0.0`
+- `io.github.juloass:resource-source-archive:1.0.0`
 - `io.github.juloass:grid-navigation:1.0.0`
 - `io.github.juloass:ui-animation:1.0.0`
 - `io.github.juloass:audio-core:1.0.0`
@@ -29,6 +30,7 @@ Published coordinates:
 - `io.github.juloass:audio-codec-wav:1.0.0`
 - `io.github.juloass:audio-codec-vorbis:1.0.0`
 - `io.github.juloass:input-core:1.0.0`
+- `io.github.juloass:input-awt:1.0.0`
 - `io.github.juloass:input-glfw:1.0.0`
 - `io.github.juloass:particle-engine:1.0.0`
 - `io.github.juloass:localization-core:0.1.0`
