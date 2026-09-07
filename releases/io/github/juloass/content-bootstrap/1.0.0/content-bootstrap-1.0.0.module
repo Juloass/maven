@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.juloass",
+    "module": "content-bootstrap",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass",
+          "module": "identifier",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "registry",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "task-graph",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "resource-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "resource-pack",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "content-bootstrap-1.0.0.jar",
+          "url": "content-bootstrap-1.0.0.jar",
+          "size": 34154,
+          "sha512": "980de1881ca54a204319a515d40e26342ec655d99eaeb72a4d8369ec2d83d998617f354590734aa3af9454761a7ee6b0b1b3763bb9bcd995a14fed1cd2ba4d74",
+          "sha256": "34ffc1741fe81c95ce1a370bfcc531d47e9e73889536aa1a8c89d6e10f7dbf3a",
+          "sha1": "e3a1efc30857f9f2d747c017c92ee9c5d5939b87",
+          "md5": "7392bc91156d84462b9ebccac018ce5a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass",
+          "module": "identifier",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "registry",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "task-graph",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "resource-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "resource-pack",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "content-bootstrap-1.0.0.jar",
+          "url": "content-bootstrap-1.0.0.jar",
+          "size": 34154,
+          "sha512": "980de1881ca54a204319a515d40e26342ec655d99eaeb72a4d8369ec2d83d998617f354590734aa3af9454761a7ee6b0b1b3763bb9bcd995a14fed1cd2ba4d74",
+          "sha256": "34ffc1741fe81c95ce1a370bfcc531d47e9e73889536aa1a8c89d6e10f7dbf3a",
+          "sha1": "e3a1efc30857f9f2d747c017c92ee9c5d5939b87",
+          "md5": "7392bc91156d84462b9ebccac018ce5a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "content-bootstrap-1.0.0-sources.jar",
+          "url": "content-bootstrap-1.0.0-sources.jar",
+          "size": 13655,
+          "sha512": "1e7767c0ee916ad6501e39c1bfc3cf97ebd3866d8ce364eb4b86e67530184797b88a39b3c1ace8e40194b358c7b2d707bde8760ec315997e42749b288a86db5a",
+          "sha256": "ee8294ab48217381fb358ba475f7cfb3ddcfbfb4b6072f506e19ff24254737ca",
+          "sha1": "9d1ad92013f4aada33e0ddba82a1a184740a2b88",
+          "md5": "508c2ed61e7ac5b7cbb5c459135efbc6"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "content-bootstrap-1.0.0-javadoc.jar",
+          "url": "content-bootstrap-1.0.0-javadoc.jar",
+          "size": 142317,
+          "sha512": "899934dbe6cad32a34ec81a03316cc2f7da4cfd127ac956f4497c6cce059a17f72a0d3af22dbdbea32688b674354cf0cccab006909ded9f3fd24df119d6adb97",
+          "sha256": "06fa8785c618ed196355316dbc1864cfb36a37beff50bbbace0352dffe1c604c",
+          "sha1": "4db96560b044c4c75183d238f4fb70c40c5e90e4",
+          "md5": "695d6f0cd35907ea7b087581cb6ca7ac"
+        }
+      ]
+    }
+  ]
+}

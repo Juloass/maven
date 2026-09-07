@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.juloass",
+    "module": "audio-codec-vorbis",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass",
+          "module": "audio-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "audio-codec-vorbis-1.0.0.jar",
+          "url": "audio-codec-vorbis-1.0.0.jar",
+          "size": 7879,
+          "sha512": "a94a82478f93254110a0052028b8169a37ee3ba2ac406813e3c5dfe2d1b54222c1663c0e0aae19ce07de4a6283d68ad3c56d0cfbda98175599b4d6710c8def42",
+          "sha256": "303fe5c5d1f0bf52abd732863db57c8540a090e1fd2b256071f1b0040b39ae79",
+          "sha1": "25e9e1b4e716f949392d5a2fc284a6ef3487b387",
+          "md5": "0817a942ae7ebc3bde689652184f3d21"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.gagravarr",
+          "module": "vorbis-java-core",
+          "version": {
+            "requires": "0.8"
+          }
+        },
+        {
+          "group": "org.jcraft",
+          "module": "jorbis",
+          "version": {
+            "requires": "0.0.17"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "audio-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "audio-codec-vorbis-1.0.0.jar",
+          "url": "audio-codec-vorbis-1.0.0.jar",
+          "size": 7879,
+          "sha512": "a94a82478f93254110a0052028b8169a37ee3ba2ac406813e3c5dfe2d1b54222c1663c0e0aae19ce07de4a6283d68ad3c56d0cfbda98175599b4d6710c8def42",
+          "sha256": "303fe5c5d1f0bf52abd732863db57c8540a090e1fd2b256071f1b0040b39ae79",
+          "sha1": "25e9e1b4e716f949392d5a2fc284a6ef3487b387",
+          "md5": "0817a942ae7ebc3bde689652184f3d21"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "audio-codec-vorbis-1.0.0-sources.jar",
+          "url": "audio-codec-vorbis-1.0.0-sources.jar",
+          "size": 3805,
+          "sha512": "7362da8b0f281920d1b2aee90a7a682818184c3423f3e1d55d28602405c45981bde4a278a2a0988268746a46d7026f3ed542399446f33c96ca538d67d16460ae",
+          "sha256": "a0679a28e8933f0cccad10c1c8f23e4ba3ac07aaa7ed8b0902496cd28224fb0b",
+          "sha1": "8f71616f91485c8a6676a5d69f59583d0e745b75",
+          "md5": "1c11f2921f7a1c56c65a06e3a4deb1ea"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "audio-codec-vorbis-1.0.0-javadoc.jar",
+          "url": "audio-codec-vorbis-1.0.0-javadoc.jar",
+          "size": 83906,
+          "sha512": "87955d37fec1bcd7c298f69f42c69e4f6097970d4dd0b169b6ee0b876c19db012f7e00380d11369c2878d73187d4a1eb7a239697ed94f649689dbed6bb1a9ea4",
+          "sha256": "1eff749a06523beeecd3af81b4824e429c855e6fbbe6fe17c5899e625b499abd",
+          "sha1": "286ee302f948882306589bc81c00d405214c576d",
+          "md5": "45fea397da339225632cd17dfa293059"
+        }
+      ]
+    }
+  ]
+}

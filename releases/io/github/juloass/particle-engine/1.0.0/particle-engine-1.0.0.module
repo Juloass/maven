@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.juloass",
+    "module": "particle-engine",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass",
+          "module": "color",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "identifier",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "particle-engine-1.0.0.jar",
+          "url": "particle-engine-1.0.0.jar",
+          "size": 82766,
+          "sha512": "35467bfc083b70bf2787bb167437145bfb6b3ddcd3b80177e1d2ccb9c2186e060604823888b2513cfb7797bcbb8caa1822cce469582f511fd82116d28cb8d2eb",
+          "sha256": "751ee9c7f629fcde41ba139f3a5716fe048dfda580028ced837b3aeb434d9574",
+          "sha1": "3f2122b80799a388a0becd31d4aaf1a2bdd4ac35",
+          "md5": "c811deec14e1046c99d14213561930de"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass",
+          "module": "color",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "identifier",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "particle-engine-1.0.0.jar",
+          "url": "particle-engine-1.0.0.jar",
+          "size": 82766,
+          "sha512": "35467bfc083b70bf2787bb167437145bfb6b3ddcd3b80177e1d2ccb9c2186e060604823888b2513cfb7797bcbb8caa1822cce469582f511fd82116d28cb8d2eb",
+          "sha256": "751ee9c7f629fcde41ba139f3a5716fe048dfda580028ced837b3aeb434d9574",
+          "sha1": "3f2122b80799a388a0becd31d4aaf1a2bdd4ac35",
+          "md5": "c811deec14e1046c99d14213561930de"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "particle-engine-1.0.0-sources.jar",
+          "url": "particle-engine-1.0.0-sources.jar",
+          "size": 23506,
+          "sha512": "013584fe554e4756aa0688f1f03d4e8bbe2f2b72e2cb7bd6c7e8e29020e38693282e0cf320ce941321ef120daca59590769246c7334d5653f20756d585a9c32f",
+          "sha256": "fea2107c71f4d8ce5cf44c5fb937ed530e0cd591bc168f5fe6ee09f7a53a0842",
+          "sha1": "7c032c76399f52d56f94c10338bfd1ab68194563",
+          "md5": "f437cf5574958aea2786a52953140fa7"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "particle-engine-1.0.0-javadoc.jar",
+          "url": "particle-engine-1.0.0-javadoc.jar",
+          "size": 162232,
+          "sha512": "59bea7de3e471fba03c51490fef88313d510c52c104e4edc8d3ba1bf68203224932f6f6d305fc32e001fa6e2b3272505a34d7c1ca04ae5ebf6c44d0f5e1008f3",
+          "sha256": "255b4e6af6b10dacf1b1b0463d57e5ffd1891428c2cf5b032a804b9026a84e24",
+          "sha1": "4bdddb6a678583fa862755bac13c470f4cc7f883",
+          "md5": "ac0311dbfacc57d7e3e8ded635ddd43f"
+        }
+      ]
+    }
+  ]
+}

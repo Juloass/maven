@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.juloass",
+    "module": "localization-resource",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass",
+          "module": "localization-core",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "localization-resource-0.1.0.jar",
+          "url": "localization-resource-0.1.0.jar",
+          "size": 3911,
+          "sha512": "d67e178b5851685a3d53b1e4df8b26a4b72f225a4af70c07ddd022b0e1ec6ee7a14fb42c51c9e305ddc22fe02758fc265514efc647574177ebb0d075d4f9093e",
+          "sha256": "72374151be2f6aa04f5641b4b8a58bebc3d29eec7fc47db19ca4058c4dd5c945",
+          "sha1": "8d470b42c74f5c1f3f6aad4a8b0b0e6e2c7c9723",
+          "md5": "2fe55a103611143b65b3dd69da681103"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass",
+          "module": "localization-json",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "resource-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "resource-pack",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "localization-core",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "localization-resource-0.1.0.jar",
+          "url": "localization-resource-0.1.0.jar",
+          "size": 3911,
+          "sha512": "d67e178b5851685a3d53b1e4df8b26a4b72f225a4af70c07ddd022b0e1ec6ee7a14fb42c51c9e305ddc22fe02758fc265514efc647574177ebb0d075d4f9093e",
+          "sha256": "72374151be2f6aa04f5641b4b8a58bebc3d29eec7fc47db19ca4058c4dd5c945",
+          "sha1": "8d470b42c74f5c1f3f6aad4a8b0b0e6e2c7c9723",
+          "md5": "2fe55a103611143b65b3dd69da681103"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "localization-resource-0.1.0-sources.jar",
+          "url": "localization-resource-0.1.0-sources.jar",
+          "size": 2067,
+          "sha512": "f286b7c76fd7a452d79f2cf4f7f82fa4d0e3b2f252cb97a8fc4499748b8c71c0e60bf86b819c1a426fa1f17a3f5e20684b202736bf066b4c38f0e6a9cd5a6023",
+          "sha256": "aa46989e14eb43ace12a5ee1692fa72b19d32e552bf574674436525b83aa6361",
+          "sha1": "40608226e99972fa6027bb8ac3f8bf5b7c62acb2",
+          "md5": "7a00fa90748b380c42d4b3f9a83fd041"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "localization-resource-0.1.0-javadoc.jar",
+          "url": "localization-resource-0.1.0-javadoc.jar",
+          "size": 84291,
+          "sha512": "b9504fea3a78ebb2c03c09aba2cd5e045864eab75f9e16ea605c8b78e0673942916b955195ba8ab0dd85d98c1c69c966effc11d6b631ac75a5a16e3a7b7a8acb",
+          "sha256": "0af26047af323bf43c3f8644613d5d280b696792512726a995e70379c5a42d68",
+          "sha1": "662aa4779f67c376fc02df171eb92b4cc0806cc4",
+          "md5": "29a0886973eca78bc64e43fc559f3514"
+        }
+      ]
+    }
+  ]
+}

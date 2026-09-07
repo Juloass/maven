@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.juloass",
+    "module": "audio-codec-wav",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass",
+          "module": "audio-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "audio-codec-wav-1.0.0.jar",
+          "url": "audio-codec-wav-1.0.0.jar",
+          "size": 6382,
+          "sha512": "a7146a447b553c390c2bff40052006d9df0426da1feb93822fe46553656ae93d7885932ec23902bb0843edbc01c2ba471af9971070db065dbb5807c06e3a8c75",
+          "sha256": "19d3040c8dba40cf4af9e94792e5ffcbf94417afb5aaf122c0726b2983016521",
+          "sha1": "dc661bacaa8c907fae48aa64d990f35753167f29",
+          "md5": "dea0695222ac4a1e8d6239d3df83c7d7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass",
+          "module": "audio-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "audio-codec-wav-1.0.0.jar",
+          "url": "audio-codec-wav-1.0.0.jar",
+          "size": 6382,
+          "sha512": "a7146a447b553c390c2bff40052006d9df0426da1feb93822fe46553656ae93d7885932ec23902bb0843edbc01c2ba471af9971070db065dbb5807c06e3a8c75",
+          "sha256": "19d3040c8dba40cf4af9e94792e5ffcbf94417afb5aaf122c0726b2983016521",
+          "sha1": "dc661bacaa8c907fae48aa64d990f35753167f29",
+          "md5": "dea0695222ac4a1e8d6239d3df83c7d7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "audio-codec-wav-1.0.0-sources.jar",
+          "url": "audio-codec-wav-1.0.0-sources.jar",
+          "size": 3260,
+          "sha512": "35cab22789e565a20a70b72de094cb28eb2390997699c67a4b5a481cb444700fd2b1af9a9e4d06fbc4c45f199022874bc6d00bc0112e435a0220648c90186eaa",
+          "sha256": "7db24a3014ba2074d57ea06bbbce27bff35de8a11ecbe7f8224f975f4cab420a",
+          "sha1": "6360bf750455a57d04b25db7db12f77e5e4e45c0",
+          "md5": "0b6790c29381dd3bd6ba36744982f043"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "audio-codec-wav-1.0.0-javadoc.jar",
+          "url": "audio-codec-wav-1.0.0-javadoc.jar",
+          "size": 83823,
+          "sha512": "33475d99ae5639acc32c1c7061ff1bebafdba22b2a479df369c323bb16800ae57cd47a578ba6ad01888c5bbc23a4e607442fa61b5b172a0619967917820be00e",
+          "sha256": "b14423feac5ceec3cf3ed461c8990d8a387d32691caf4d2e1d5681bd85178e7a",
+          "sha1": "0b3ad46962a642b24b89c6f8623ae959397f688d",
+          "md5": "d326d9b2d3d0ae3f02f8ed2875d8c55b"
+        }
+      ]
+    }
+  ]
+}

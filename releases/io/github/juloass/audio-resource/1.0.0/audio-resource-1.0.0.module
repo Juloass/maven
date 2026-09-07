@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.juloass",
+    "module": "audio-resource",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass",
+          "module": "audio-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "resource-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "resource-pack",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "audio-resource-1.0.0.jar",
+          "url": "audio-resource-1.0.0.jar",
+          "size": 8553,
+          "sha512": "6ae8f12dbf7d9097caecda0241e0fa7845e115f6c2e98e4db62e3819f86fb610884099c940156b522c64dc4109609902dcbc9d0bbba65b62406d74f60f250996",
+          "sha256": "04d06127a3752aaede2f19dac6cf193508901f44ae177923e69011dd26b221f5",
+          "sha1": "b2b5863e4c57d1c66d897badba0d5d420421fadd",
+          "md5": "80ce98f8f6ca91ea6b89591adce711ea"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass",
+          "module": "audio-codec-wav",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "audio-codec-vorbis",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "audio-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "resource-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "resource-pack",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "audio-resource-1.0.0.jar",
+          "url": "audio-resource-1.0.0.jar",
+          "size": 8553,
+          "sha512": "6ae8f12dbf7d9097caecda0241e0fa7845e115f6c2e98e4db62e3819f86fb610884099c940156b522c64dc4109609902dcbc9d0bbba65b62406d74f60f250996",
+          "sha256": "04d06127a3752aaede2f19dac6cf193508901f44ae177923e69011dd26b221f5",
+          "sha1": "b2b5863e4c57d1c66d897badba0d5d420421fadd",
+          "md5": "80ce98f8f6ca91ea6b89591adce711ea"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "audio-resource-1.0.0-sources.jar",
+          "url": "audio-resource-1.0.0-sources.jar",
+          "size": 4089,
+          "sha512": "3d8319ab80dd76255fddc1e3b26778756f85d92b2df81cc83d08a9ebc5d7a0ba14b3909b203b45cd197067179380a49d86ebe18a49b8d3610c913e860d159ef0",
+          "sha256": "86502e20e8cada71cc8471656f87c840a27153292904e671d9f6fb230e7243df",
+          "sha1": "7a6cdcdca530ab8e6f91feebae1753b4dc538d3e",
+          "md5": "3aa4f2a6603d6ee0cd98f72d91cc48be"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "audio-resource-1.0.0-javadoc.jar",
+          "url": "audio-resource-1.0.0-javadoc.jar",
+          "size": 91785,
+          "sha512": "c5742a89e19664f4ba8f9dffa0af037fa790f29027cb5535c4d6a679e712e24b7749e885418b214a3edc938384ff31542415e6a70fe0ad809a1029417129e301",
+          "sha256": "fb779b1423e0204776c660772bdf06b9499b65598b25ea29b0158083ae066bc8",
+          "sha1": "e9082766154402615ad6d68ca3068d5fb7c4c29b",
+          "md5": "fef1961c2f538bed9f1c5335bf375804"
+        }
+      ]
+    }
+  ]
+}

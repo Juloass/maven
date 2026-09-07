@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.juloass",
+    "module": "input-glfw",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass",
+          "module": "input-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "input-glfw-1.0.0.jar",
+          "url": "input-glfw-1.0.0.jar",
+          "size": 8877,
+          "sha512": "183ea3864cc94ec5055e508898750a6d509782b0465662a9a2b7b0898593d6b297fd6bdf1273744b78a8676c4307d1c4e4e03ae084021ce02840c94a75e9fe0c",
+          "sha256": "ca40f3d0bb331209a54430b2ed8c24e08e22d8127f5923c6961d106e9adcef5f",
+          "sha1": "db24c3030f67faaa3751fa1d38534e466f75314e",
+          "md5": "a4f46600fd0a9354d2b64ad3ce005303"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "3.4.1"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-glfw",
+          "version": {
+            "requires": "3.4.1"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "input-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "input-glfw-1.0.0.jar",
+          "url": "input-glfw-1.0.0.jar",
+          "size": 8877,
+          "sha512": "183ea3864cc94ec5055e508898750a6d509782b0465662a9a2b7b0898593d6b297fd6bdf1273744b78a8676c4307d1c4e4e03ae084021ce02840c94a75e9fe0c",
+          "sha256": "ca40f3d0bb331209a54430b2ed8c24e08e22d8127f5923c6961d106e9adcef5f",
+          "sha1": "db24c3030f67faaa3751fa1d38534e466f75314e",
+          "md5": "a4f46600fd0a9354d2b64ad3ce005303"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "input-glfw-1.0.0-sources.jar",
+          "url": "input-glfw-1.0.0-sources.jar",
+          "size": 4362,
+          "sha512": "005d4d9b230f77e9352e1afe80dcf6183e1dba8f98cd15e9def1c547bcafb1a66508e90725eabdd6efb7ac1f510c8ca044e079d549158de3d9310d47d4d51762",
+          "sha256": "8931ee0f6d8acd548bfdc3c4a5a428e60f7ee20a815388ebeb9bc3b63d52d36f",
+          "sha1": "f0eb606db9650ebaa4ca4165612f31951fdcef44",
+          "md5": "2005978103398fd90c7707b327f164f4"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "input-glfw-1.0.0-javadoc.jar",
+          "url": "input-glfw-1.0.0-javadoc.jar",
+          "size": 85872,
+          "sha512": "fd1338ca59bba2fc561daaf678be7be30a7b6ebb3359a5f4e37ea5b6991d7e38d7c071b587c95418d1c6e6e535adf8159c9f27d7bf3b4d19dc91b1a237ed44ef",
+          "sha256": "24b3fa50969c19f524eac5840bffeaa6f83a1eb3f7e809569181227a86372c4d",
+          "sha1": "a2451e6858d8005ceac1d37be61c6bd025fac897",
+          "md5": "c6ef691577d61d78e30a2bafb1f2a051"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.juloass",
+    "module": "ui-animation",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass",
+          "module": "math",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "color",
+          "version": {
+            "requires": "1.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-animation-1.0.0.jar",
+          "url": "ui-animation-1.0.0.jar",
+          "size": 56470,
+          "sha512": "99bdfc51d70bfe8c7df7469e17ce55f6a7d28d48ce56e35851fff432e189f89dc29b72a794fcd695db9a2203de434ae80372d5f3913217d0493f5fbce7dab59b",
+          "sha256": "2c3d88e719806d9e257b3bb1b9cfe5ea3de7d1e880141d8b894f3846ecf6c0eb",
+          "sha1": "94099398e7c829f504a511f341ac08d181b1ce84",
+          "md5": "388763ce0cb6fc68ca5589c8af317e64"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass",
+          "module": "math",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "color",
+          "version": {
+            "requires": "1.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-animation-1.0.0.jar",
+          "url": "ui-animation-1.0.0.jar",
+          "size": 56470,
+          "sha512": "99bdfc51d70bfe8c7df7469e17ce55f6a7d28d48ce56e35851fff432e189f89dc29b72a794fcd695db9a2203de434ae80372d5f3913217d0493f5fbce7dab59b",
+          "sha256": "2c3d88e719806d9e257b3bb1b9cfe5ea3de7d1e880141d8b894f3846ecf6c0eb",
+          "sha1": "94099398e7c829f504a511f341ac08d181b1ce84",
+          "md5": "388763ce0cb6fc68ca5589c8af317e64"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-animation-1.0.0-sources.jar",
+          "url": "ui-animation-1.0.0-sources.jar",
+          "size": 22126,
+          "sha512": "83706c12c906d2d798920d3dde8232226060e312e828bfc5e77146527178ff6017c27eceaf5909983a5e03685ced45ec9163f064e34b7d99c7c115931de3a1f9",
+          "sha256": "537be8a36ec1ba6184ce260a5345f658818fcb8032d69ee2cefb00d2ec22a58d",
+          "sha1": "b975acbed93632e741de1fecbbeb92d64fad6245",
+          "md5": "675bfb8c54186ef7762dbacace284247"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-animation-1.0.0-javadoc.jar",
+          "url": "ui-animation-1.0.0-javadoc.jar",
+          "size": 185500,
+          "sha512": "96833cee4d655efd7affc5df7b23caa43d8e2ccc360a9f8c380d6e37144bf9898531ffa8dfc7f00b450f0eff57bcd3d92d945b5aa2dabf2ca35b22ff064c5c80",
+          "sha256": "4f084a927e69fe998031b3d08c305f3da6f3d3cc88774f94e536239fd2169980",
+          "sha1": "d6f6e6e2c754e727d84db58d53293da24b88fef2",
+          "md5": "078b422299494c5d61f4ded46bf6fe3b"
+        }
+      ]
+    }
+  ]
+}

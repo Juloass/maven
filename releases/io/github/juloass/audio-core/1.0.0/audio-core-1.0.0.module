@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.juloass",
+    "module": "audio-core",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass",
+          "module": "identifier",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "math",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "audio-core-1.0.0.jar",
+          "url": "audio-core-1.0.0.jar",
+          "size": 53640,
+          "sha512": "dd97b9f5c875661daad0cc6c64bd4f0f94631df57e6fca116086310c4faedcf1be2471092c2b6300e0fa643fe8ff2788e753e1d3e9c257fce39cb9e4fb097c56",
+          "sha256": "0b153d43042240db4960fd1aa33651d94247a0bf7ea6faa0a7947a65b2cf834c",
+          "sha1": "ab9589937a421780e30a2789386e1b888fe2edc2",
+          "md5": "64c0238346b8e847b3a85a847558d554"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass",
+          "module": "identifier",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "math",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "audio-core-1.0.0.jar",
+          "url": "audio-core-1.0.0.jar",
+          "size": 53640,
+          "sha512": "dd97b9f5c875661daad0cc6c64bd4f0f94631df57e6fca116086310c4faedcf1be2471092c2b6300e0fa643fe8ff2788e753e1d3e9c257fce39cb9e4fb097c56",
+          "sha256": "0b153d43042240db4960fd1aa33651d94247a0bf7ea6faa0a7947a65b2cf834c",
+          "sha1": "ab9589937a421780e30a2789386e1b888fe2edc2",
+          "md5": "64c0238346b8e847b3a85a847558d554"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "audio-core-1.0.0-sources.jar",
+          "url": "audio-core-1.0.0-sources.jar",
+          "size": 20491,
+          "sha512": "01ce0474b8ab61b53c1c9fd75b0c7fe7a051f3855168925eb69604a399f9e610b3ae3d203699118963cc25adadd92692644d8c4f8b49430cb72fbb9648a162f0",
+          "sha256": "dd78ef0879bd9d0990c273bce5087580d112259b02b98990557caf23b9027868",
+          "sha1": "095d6b68abf39aa6a33b9681355942407ad62288",
+          "md5": "915b315db96355a2182cbfc76bfa5c03"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "audio-core-1.0.0-javadoc.jar",
+          "url": "audio-core-1.0.0-javadoc.jar",
+          "size": 236228,
+          "sha512": "1e1e9c117f51a2d686eb619422f4bd129d87b2b6f957e11966f3e5c196dbf8a0a528bbb8a3a15e238eeaa72b63b1e0d0d6f4bebeee9b93014065556f3d13609e",
+          "sha256": "fbf0032c23ebaeb069f0460067fbf661f872471a808f81542e4168378f2d1a36",
+          "sha1": "48f9ed99fa8be9711b72a1f139af2b6cfaaf9427",
+          "md5": "07c74333b2ec4a4bafdaebd8f91fefdb"
+        }
+      ]
+    }
+  ]
+}

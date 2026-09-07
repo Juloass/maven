@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.juloass",
+    "module": "audio-openal",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass",
+          "module": "audio-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "audio-openal-1.0.0.jar",
+          "url": "audio-openal-1.0.0.jar",
+          "size": 43207,
+          "sha512": "897f84b8b4ac62bfe7fbe7b129dda1ed9af50b2b820dbcea18063d508602aa22fcb56071037fdc9c9f988d1594091ec8c4ab5eefeca51c9c6082eb0e76553529",
+          "sha256": "c8671c98a6309f4245c25322200a505b8abdf07da9c20a3df2c9628a0930a6ef",
+          "sha1": "22e7cdea6f8fc685ef9a1ea2cf0bda0e27039d87",
+          "md5": "7151299530ac2b5cd3fc0a31c5f4db7d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-bom",
+          "version": {
+            "requires": "3.4.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-openal"
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "audio-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "audio-openal-1.0.0.jar",
+          "url": "audio-openal-1.0.0.jar",
+          "size": 43207,
+          "sha512": "897f84b8b4ac62bfe7fbe7b129dda1ed9af50b2b820dbcea18063d508602aa22fcb56071037fdc9c9f988d1594091ec8c4ab5eefeca51c9c6082eb0e76553529",
+          "sha256": "c8671c98a6309f4245c25322200a505b8abdf07da9c20a3df2c9628a0930a6ef",
+          "sha1": "22e7cdea6f8fc685ef9a1ea2cf0bda0e27039d87",
+          "md5": "7151299530ac2b5cd3fc0a31c5f4db7d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "audio-openal-1.0.0-sources.jar",
+          "url": "audio-openal-1.0.0-sources.jar",
+          "size": 13031,
+          "sha512": "cee268cb5dcf5892fb36a0b4d327ea1ca23a0e72b591a977e6b3dfeadb94133834fae53e59547f413bdab6fa4ec28eb0749bd9affcc6355dc5787bc31302f836",
+          "sha256": "930e3d08bd86aadb5111b248dad55dc1c640cea2a1b6d1e6cb1138509f69e8f0",
+          "sha1": "5bb8b4a33a665e61067c6ddd87383167de67bd97",
+          "md5": "9a4d429532217709f4f26195ab7dc4a7"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "audio-openal-1.0.0-javadoc.jar",
+          "url": "audio-openal-1.0.0-javadoc.jar",
+          "size": 101480,
+          "sha512": "0714bcd5a942d21d1b32ee67df6d8bbb2ddfab97359448f0b0e8985ccab05289001e40a4342b18952df665396c7ac43d7d1fd7b1d18bbdc3e3949648aceb0546",
+          "sha256": "a3a38dcd10630dbd8f0bad28b038d749761d17c28dd39330c6a1f73b8eec12ac",
+          "sha1": "edd75d3b2f91e97a0d9104d891f8ad25e4e28133",
+          "md5": "5889cc1383d731b6dc020e860f8b770b"
+        }
+      ]
+    }
+  ]
+}

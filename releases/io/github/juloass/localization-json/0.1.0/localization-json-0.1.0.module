@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.juloass",
+    "module": "localization-json",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass",
+          "module": "localization-core",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "localization-json-0.1.0.jar",
+          "url": "localization-json-0.1.0.jar",
+          "size": 16468,
+          "sha512": "2586610f1c8c0461d52efe25325fdee0fa645ed7a455e682e7c41bb8f79dcfef435466bd0a958244a240d9a44ae1454f6928ebc7319fda1573a729017394116a",
+          "sha256": "69d272a7c6285baf67cce798738a1009799c12e62609e4f88bf654b0f90494b7",
+          "sha1": "ed5a49121ece905f618a700029baefcc873ef460",
+          "md5": "714f641f14007337a50bcc67cd48d705"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.14.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "localization-core",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "localization-json-0.1.0.jar",
+          "url": "localization-json-0.1.0.jar",
+          "size": 16468,
+          "sha512": "2586610f1c8c0461d52efe25325fdee0fa645ed7a455e682e7c41bb8f79dcfef435466bd0a958244a240d9a44ae1454f6928ebc7319fda1573a729017394116a",
+          "sha256": "69d272a7c6285baf67cce798738a1009799c12e62609e4f88bf654b0f90494b7",
+          "sha1": "ed5a49121ece905f618a700029baefcc873ef460",
+          "md5": "714f641f14007337a50bcc67cd48d705"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "localization-json-0.1.0-sources.jar",
+          "url": "localization-json-0.1.0-sources.jar",
+          "size": 4598,
+          "sha512": "80919f71869695a3957d7a7525373af13f63dda30fcacd759b7e2e312f40a5a6e55bda7bf817595aeb3bfa53b5578af1f484d3b7ce31373ceb1b3434d6356428",
+          "sha256": "3afbbfaacb60d448b91c0c3338bee7dd43103a0b4493718ebf0509224a5ac20f",
+          "sha1": "5d2d8ac592a9ae2ef03caa5fea35d9292851c6cd",
+          "md5": "7e66d2af9ce729bb4aae48ace2d0f196"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "localization-json-0.1.0-javadoc.jar",
+          "url": "localization-json-0.1.0-javadoc.jar",
+          "size": 89845,
+          "sha512": "c01dd9b3fdcfa7ae19462fa4d0e5983ba7c7d7a1481fd2b99a37ce2ea8a2d268c545acd40bd2d194ba87110fb7577038e09a375796c00c37e2da5e04ec9bd978",
+          "sha256": "69bdb88aa373695e78d9b109428deebc6144c3a2a60b2c01239e4e2a70012b09",
+          "sha1": "a7acba1221f185f1e91bdc072c550e1ebef3c4e2",
+          "md5": "dda770782ff5bd463639188bb2f1d8eb"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.juloass",
+    "module": "task-graph",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass",
+          "module": "identifier",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "task-graph-1.0.0.jar",
+          "url": "task-graph-1.0.0.jar",
+          "size": 13889,
+          "sha512": "12f8819641618dc15e6581a2a0a04d90e15f5987e3958320c0e9cab5965e09b0ce5258c68bbf2ea695fdd415848e6013ff1c7783f539b7385587a0e01888fa6c",
+          "sha256": "47153c3bebc728f61f8c1240533b55a16beb0cb3d2ab0bfa4c4b9cbb8df7e844",
+          "sha1": "1bd978566e05258314b846930ff3709dfcee769c",
+          "md5": "b027ea964da2d7bd0388be0b735e87f7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass",
+          "module": "identifier",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "task-graph-1.0.0.jar",
+          "url": "task-graph-1.0.0.jar",
+          "size": 13889,
+          "sha512": "12f8819641618dc15e6581a2a0a04d90e15f5987e3958320c0e9cab5965e09b0ce5258c68bbf2ea695fdd415848e6013ff1c7783f539b7385587a0e01888fa6c",
+          "sha256": "47153c3bebc728f61f8c1240533b55a16beb0cb3d2ab0bfa4c4b9cbb8df7e844",
+          "sha1": "1bd978566e05258314b846930ff3709dfcee769c",
+          "md5": "b027ea964da2d7bd0388be0b735e87f7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "task-graph-1.0.0-sources.jar",
+          "url": "task-graph-1.0.0-sources.jar",
+          "size": 6798,
+          "sha512": "548ec772d00480b6a40dd350347881f0575763243935bbbe323a8ae5e46349153a00efeb5410941fcda30acfdb16b74224d6f78b93b6257b7c08fbab128852d1",
+          "sha256": "e7b1bd7b57ff6a377cf0491f017fc414729a6edf91df115c93c333ba491592f9",
+          "sha1": "6ea99b6f5b6975ab792b7db3409fdd8302963973",
+          "md5": "09f1673bffa667e82ed9437ab4e29870"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "task-graph-1.0.0-javadoc.jar",
+          "url": "task-graph-1.0.0-javadoc.jar",
+          "size": 114564,
+          "sha512": "b9b9f2ce9e35d17b62b3081c327a9c30fb15391a0acb4d52e637fd9e8f7877f00ef1857b70384cc8c6aa79404a9301f655df815840246fc2c4a7a2fe6240f9a5",
+          "sha256": "5600a11733b07d90ea7140691e84e787bc6909edeab62fe51611502cc13bfff5",
+          "sha1": "ecde40dba5bc897b1a61cbec40b862d54fc600e9",
+          "md5": "9a9a5c00250fe7377e97a676a39a24c1"
+        }
+      ]
+    }
+  ]
+}

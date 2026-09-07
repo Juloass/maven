@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.juloass",
+    "module": "grid-navigation",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "grid-navigation-1.0.0.jar",
+          "url": "grid-navigation-1.0.0.jar",
+          "size": 13621,
+          "sha512": "8947b2b747e7a93a141e63dec379908390867b2ccd9e23c60a162f9b3f33ff9297de847e70693f206cc8c380b299f8bdb82933d50676f053e9f08b27ef4add58",
+          "sha256": "ab991c8eb7c57c896542f855e808116a0c76d5cbce1da08cdaa62a426b8e5d20",
+          "sha1": "e8b5708d132de89641ff03845afcda866a083a92",
+          "md5": "813c567ac6296a34ae76d57d6a275879"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grid-navigation-1.0.0.jar",
+          "url": "grid-navigation-1.0.0.jar",
+          "size": 13621,
+          "sha512": "8947b2b747e7a93a141e63dec379908390867b2ccd9e23c60a162f9b3f33ff9297de847e70693f206cc8c380b299f8bdb82933d50676f053e9f08b27ef4add58",
+          "sha256": "ab991c8eb7c57c896542f855e808116a0c76d5cbce1da08cdaa62a426b8e5d20",
+          "sha1": "e8b5708d132de89641ff03845afcda866a083a92",
+          "md5": "813c567ac6296a34ae76d57d6a275879"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grid-navigation-1.0.0-sources.jar",
+          "url": "grid-navigation-1.0.0-sources.jar",
+          "size": 4185,
+          "sha512": "3dfd9b5496137f9a60d0b3929d4d7dd267c4f6181ae01f84e0d1ec82d0e8f9cf90cc52ecd403d731ddadc8264201c26b4eadf9c58472fcdb5607d5c1578f3f11",
+          "sha256": "0374e41af7179b93d6289a5218b8d7d63d68634cd1d2d774965a2af0dfc461a8",
+          "sha1": "edc49454de7e630d45b8c1956ce09501ab5085cc",
+          "md5": "d7b10060ec3249c9bcd58e12e17c7b9e"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grid-navigation-1.0.0-javadoc.jar",
+          "url": "grid-navigation-1.0.0-javadoc.jar",
+          "size": 105476,
+          "sha512": "666d76f76127ab23aa3b952fab362bbdcec2e6e7e6704891303e6c9853ffd52bf158fcb2f4397d33bd54d3eb4eaf4eff4faaaca88d72caa7b6427a36193dc763",
+          "sha256": "89f31e43e87ccdbb248528a94e20f8e7eba1c608c8f588294fee67530e647a77",
+          "sha1": "c9e344927e236649483b84a4899b536f257ae25b",
+          "md5": "effc248e31871c0ec8c02175718b808b"
+        }
+      ]
+    }
+  ]
+}
