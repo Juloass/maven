@@ -1,0 +1,225 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.juloass.tofuxia-engine",
+    "module": "engine-core",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass",
+          "module": "content-bootstrap",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "identifier",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "registry",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "task-graph",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "resource-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "resource-pack",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.joml",
+          "module": "joml",
+          "version": {
+            "requires": "1.10.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "engine-core-0.2.0.jar",
+          "url": "engine-core-0.2.0.jar",
+          "size": 109810,
+          "sha512": "e33fe37a4db08f3a831951ebf903734840e2e4d3696494bf901f9327159a4e78fe19387c27cbeb0b32203716b757796f51d4c48062fd8c3fcc92de15a2008eb5",
+          "sha256": "11c49d8bb5113da64e2a73ca5ca79cb37fd86111bc72d76c390f3a221e54a2a4",
+          "sha1": "3376bfa620656dd19d40f88340de7ca6319b748a",
+          "md5": "2e802be034555f690a72d4fc70f2c3d4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-bom",
+          "version": {
+            "requires": "3.4.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-freetype"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-harfbuzz"
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "content-bootstrap",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "identifier",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "registry",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "task-graph",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "resource-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "resource-pack",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.joml",
+          "module": "joml",
+          "version": {
+            "requires": "1.10.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "engine-core-0.2.0.jar",
+          "url": "engine-core-0.2.0.jar",
+          "size": 109810,
+          "sha512": "e33fe37a4db08f3a831951ebf903734840e2e4d3696494bf901f9327159a4e78fe19387c27cbeb0b32203716b757796f51d4c48062fd8c3fcc92de15a2008eb5",
+          "sha256": "11c49d8bb5113da64e2a73ca5ca79cb37fd86111bc72d76c390f3a221e54a2a4",
+          "sha1": "3376bfa620656dd19d40f88340de7ca6319b748a",
+          "md5": "2e802be034555f690a72d4fc70f2c3d4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "engine-core-0.2.0-sources.jar",
+          "url": "engine-core-0.2.0-sources.jar",
+          "size": 37124,
+          "sha512": "6ede6c281d7ac2254f86b760bad136d2dc74591df4dd447c5043f4e2cc791dccc126d2f33896eb1669738dd8060133f68209ddde82d72d555273bf53f2081e54",
+          "sha256": "0ad96937c05d4a8cb153d48c153f40cc0612817204627b428744b234a218a31d",
+          "sha1": "322a4daf7ec1380a96e40c6d4dabf5870c102011",
+          "md5": "cc6ed8ff65ef35fc4e09e612bdd43c87"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "engine-core-0.2.0-javadoc.jar",
+          "url": "engine-core-0.2.0-javadoc.jar",
+          "size": 257765,
+          "sha512": "351613a0b6c82ba5f369462ec5c56c060cf1634a249eab39590ec8698cfce35fc3baf6aca0854796f1f8d806ececb54941efab132e5525c18e3d8aaed9923cbd",
+          "sha256": "03640fe6f4123ee63fe50f27745af183cf483a85f01b51777a191e1f21acd8c4",
+          "sha1": "969e6d3e5cfa36db01003eede0e19a76117ebd01",
+          "md5": "580735cc6c570ae1aed042754068b92f"
+        }
+      ]
+    }
+  ]
+}

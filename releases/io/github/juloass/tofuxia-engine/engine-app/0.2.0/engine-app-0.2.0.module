@@ -1,0 +1,223 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.juloass.tofuxia-engine",
+    "module": "engine-app",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass.tofuxia-engine",
+          "module": "engine-default-assets",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "io.github.juloass.tofuxia-engine",
+          "module": "engine-core",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "io.github.juloass.tofuxia-engine",
+          "module": "engine-ui",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "localization-core",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "audio-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "input-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "particle-engine",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass.tofuxia-engine",
+          "module": "vulkan-renderer",
+          "version": {
+            "requires": "0.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "engine-app-0.2.0.jar",
+          "url": "engine-app-0.2.0.jar",
+          "size": 224820,
+          "sha512": "f32c70ca5610c6db8c332d5e8f61b226b83c785640bc7134754a84c6391988f5de6b0693f88c1e43dc5733c6466efb9b2d60ffd729ffa8b8bfaf1c8d9f283275",
+          "sha256": "f3105c82d0363518c80d28c9ce3b1afacc44eca043b6ab3f56b09bfdf6202064",
+          "sha1": "5a08bac3a56a43314be0b519f4857e8a1dad5a50",
+          "md5": "57267af9cdb6db64e5074cfd8446e516"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.joml",
+          "module": "joml",
+          "version": {
+            "requires": "1.10.9"
+          }
+        },
+        {
+          "group": "io.github.juloass.tofuxia-engine",
+          "module": "engine-default-assets",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "io.github.juloass.tofuxia-engine",
+          "module": "engine-core",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "io.github.juloass.tofuxia-engine",
+          "module": "engine-ui",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "localization-core",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "audio-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "input-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "particle-engine",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass.tofuxia-engine",
+          "module": "vulkan-renderer",
+          "version": {
+            "requires": "0.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "engine-app-0.2.0.jar",
+          "url": "engine-app-0.2.0.jar",
+          "size": 224820,
+          "sha512": "f32c70ca5610c6db8c332d5e8f61b226b83c785640bc7134754a84c6391988f5de6b0693f88c1e43dc5733c6466efb9b2d60ffd729ffa8b8bfaf1c8d9f283275",
+          "sha256": "f3105c82d0363518c80d28c9ce3b1afacc44eca043b6ab3f56b09bfdf6202064",
+          "sha1": "5a08bac3a56a43314be0b519f4857e8a1dad5a50",
+          "md5": "57267af9cdb6db64e5074cfd8446e516"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "engine-app-0.2.0-sources.jar",
+          "url": "engine-app-0.2.0-sources.jar",
+          "size": 58651,
+          "sha512": "0ddc75ff31703df9c4a9d215ee3f56d1a5d11c8f63183d0be1b4b98129d5dd3467adba9d3693df639ce2b0a76eb5cdd28dbf8f8d651ffddcc4d00a3d76e422a7",
+          "sha256": "5f2ce9bbc08a1a40e7fb8c26abc1947e9eac781f092b5c2465c00a37273bfd0a",
+          "sha1": "e4b4b7cd161d137259919d4e1700aac24401218b",
+          "md5": "17618dd99e336c05a8b81b2ed32304c7"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "engine-app-0.2.0-javadoc.jar",
+          "url": "engine-app-0.2.0-javadoc.jar",
+          "size": 540499,
+          "sha512": "ba602196e0d5c700946b7952da99179bf989a37d5268df5a95c1360856971ab1d2309cb5ce200083e44a63ab1fcc4e615fb80cfadd792eee67aa2faae09b82ed",
+          "sha256": "d06a8d6136a51c0e00612065dcbd84e8fd217c8a5c99f15e41bb37ae5348239e",
+          "sha1": "fac6637684bdd791cc909dea06648ac1523421b9",
+          "md5": "9e02cf3426e5e722ecdecae761d6d80a"
+        }
+      ]
+    }
+  ]
+}

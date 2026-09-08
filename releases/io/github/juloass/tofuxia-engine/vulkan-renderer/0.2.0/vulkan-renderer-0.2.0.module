@@ -1,0 +1,173 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.juloass.tofuxia-engine",
+    "module": "vulkan-renderer",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass.tofuxia-engine",
+          "module": "engine-core",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "io.github.juloass.tofuxia-engine",
+          "module": "render-api",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "org.joml",
+          "module": "joml",
+          "version": {
+            "requires": "1.10.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vulkan-renderer-0.2.0.jar",
+          "url": "vulkan-renderer-0.2.0.jar",
+          "size": 306906,
+          "sha512": "8f2bc05d1c1a2912945a310060787e96c4d81d6ffcfe96f383dca1a107c8af6a2b2c23c4aeaf9dba522a502f3bcf609f9bc3ab5926c702f29e354d19ffd94cd2",
+          "sha256": "55d7cac60cc7b60a1d27723ea7f05a49fcc895ba3b07a7f4a3d76955af5b1f74",
+          "sha1": "21e1e9d132a61bb6d129cca4c5c043396811bbca",
+          "md5": "84baff38ad6b8bee5f4722d8738540e1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-bom",
+          "version": {
+            "requires": "3.4.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-glfw"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-shaderc"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-vulkan"
+        },
+        {
+          "group": "io.github.juloass.tofuxia-engine",
+          "module": "engine-core",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "io.github.juloass.tofuxia-engine",
+          "module": "render-api",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "org.joml",
+          "module": "joml",
+          "version": {
+            "requires": "1.10.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vulkan-renderer-0.2.0.jar",
+          "url": "vulkan-renderer-0.2.0.jar",
+          "size": 306906,
+          "sha512": "8f2bc05d1c1a2912945a310060787e96c4d81d6ffcfe96f383dca1a107c8af6a2b2c23c4aeaf9dba522a502f3bcf609f9bc3ab5926c702f29e354d19ffd94cd2",
+          "sha256": "55d7cac60cc7b60a1d27723ea7f05a49fcc895ba3b07a7f4a3d76955af5b1f74",
+          "sha1": "21e1e9d132a61bb6d129cca4c5c043396811bbca",
+          "md5": "84baff38ad6b8bee5f4722d8738540e1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vulkan-renderer-0.2.0-sources.jar",
+          "url": "vulkan-renderer-0.2.0-sources.jar",
+          "size": 125742,
+          "sha512": "bcae512142a18731290bc629b7069d75d863de914bad753c2b7d3e878b0cfa6c0ae3cf52025bdfb0754f6d7362f19ffc31e43d20c745beb317eebd4891881693",
+          "sha256": "f34547922be2f17da195e932bdf8e85b6fb557da293e033ed2e68f7f245fb6c0",
+          "sha1": "9b6976d4876eeb8e73c940e0ffc8aadc8a6acb14",
+          "md5": "5cc9f988b41d9d9321fa5f9fb275b279"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vulkan-renderer-0.2.0-javadoc.jar",
+          "url": "vulkan-renderer-0.2.0-javadoc.jar",
+          "size": 337210,
+          "sha512": "ca6402c3edae1321f88dc72289f0a2e717ea47936853084a167c2c2df765443c04dde27455022a847a76ae18ca8ac53c671adcd799ab72993541e36a5628d981",
+          "sha256": "01baf322d545cfa066728de9ab3e5d00eb47a4c006a9512a941528799a8ed677",
+          "sha1": "fc408d48989d72b5aafe62592928486b0999292e",
+          "md5": "8435289344f71a9bd1d417dc0c1655df"
+        }
+      ]
+    }
+  ]
+}

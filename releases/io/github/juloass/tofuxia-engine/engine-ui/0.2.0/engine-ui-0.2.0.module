@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.juloass.tofuxia-engine",
+    "module": "engine-ui",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass.tofuxia-engine",
+          "module": "engine-core",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "localization-core",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "math",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "ui-animation",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "engine-ui-0.2.0.jar",
+          "url": "engine-ui-0.2.0.jar",
+          "size": 101387,
+          "sha512": "b96f35f176197e6296d69794a76295ce25c4bfd05b8c2041e222ecf046a33e1928e0feb65fe1ef52cb785d79e845e2c231f783b49ef302175be72955ae26c524",
+          "sha256": "d8157e0bfb84771a1a5ecd262fde7cbcdf3fcdc789064e79af8750921fc3d495",
+          "sha1": "ba3a46d5fc7ac98078f6de463dd2652846669eaf",
+          "md5": "95f1c074716d9a7b73dfd19984732b06"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass.tofuxia-engine",
+          "module": "engine-core",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "localization-core",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "math",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "ui-animation",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "engine-ui-0.2.0.jar",
+          "url": "engine-ui-0.2.0.jar",
+          "size": 101387,
+          "sha512": "b96f35f176197e6296d69794a76295ce25c4bfd05b8c2041e222ecf046a33e1928e0feb65fe1ef52cb785d79e845e2c231f783b49ef302175be72955ae26c524",
+          "sha256": "d8157e0bfb84771a1a5ecd262fde7cbcdf3fcdc789064e79af8750921fc3d495",
+          "sha1": "ba3a46d5fc7ac98078f6de463dd2652846669eaf",
+          "md5": "95f1c074716d9a7b73dfd19984732b06"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "engine-ui-0.2.0-sources.jar",
+          "url": "engine-ui-0.2.0-sources.jar",
+          "size": 40590,
+          "sha512": "3cbd56b180ccf78b18d6cc5febc9723f80a2bf4577bd2be8b47b23a36c844131b8b69a79be51acaedc389077510652d0832ef96e160cc792c03a697f5be2d524",
+          "sha256": "72e9672fa846249559198f3c56bc3c80f56ee9d6fdff2f36391ca08dcb9a866f",
+          "sha1": "4973964093ee81279d795c0097d718bb1e62e1b5",
+          "md5": "2167f001ad2fcae30b27a07b0c098d72"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "engine-ui-0.2.0-javadoc.jar",
+          "url": "engine-ui-0.2.0-javadoc.jar",
+          "size": 277494,
+          "sha512": "7a9b2490a1533a1e8868778272ae015c1123c11eb80f7d468b122af0f923701c7533227273f48ef31d2f526f2217eda1a60cd662ce692bffb3df1254808abf86",
+          "sha256": "b94c94feb50d3597e024d2bc2fcabd93067a15df8a2ac1940036506fe7351425",
+          "sha1": "f6c4e25e94f83815e3f4e89df80ccd4961084b20",
+          "md5": "f1ae3ba51d4d94887c68ce6455e230b1"
+        }
+      ]
+    }
+  ]
+}
