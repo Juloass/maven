@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.juloass",
+    "module": "squall-mocha",
+    "version": "0.1.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.javassist",
+          "module": "javassist",
+          "version": {
+            "requires": "3.30.2-GA"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "24.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "squall-mocha-0.1.5.jar",
+          "url": "squall-mocha-0.1.5.jar",
+          "size": 139962,
+          "sha512": "4116f1b6541527ba4a065de529a842b79608307e67c7ed02b849473e27b204338f1bca4a874d94cacb1bf6b3c85d863d5b8f72f48768e60c5044bab08535999c",
+          "sha256": "bad3bafe987ccdfd56f4c72052d2a7afbf48020f6879afc93269f6b6f7508e1d",
+          "sha1": "713f6f9f0c3539769cea3070cadffa98fb45e5a8",
+          "md5": "52eed1abbc47cc1de882ffe3aebc2bfc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.javassist",
+          "module": "javassist",
+          "version": {
+            "requires": "3.30.2-GA"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "squall-mocha-0.1.5.jar",
+          "url": "squall-mocha-0.1.5.jar",
+          "size": 139962,
+          "sha512": "4116f1b6541527ba4a065de529a842b79608307e67c7ed02b849473e27b204338f1bca4a874d94cacb1bf6b3c85d863d5b8f72f48768e60c5044bab08535999c",
+          "sha256": "bad3bafe987ccdfd56f4c72052d2a7afbf48020f6879afc93269f6b6f7508e1d",
+          "sha1": "713f6f9f0c3539769cea3070cadffa98fb45e5a8",
+          "md5": "52eed1abbc47cc1de882ffe3aebc2bfc"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "squall-mocha-0.1.5-sources.jar",
+          "url": "squall-mocha-0.1.5-sources.jar",
+          "size": 114732,
+          "sha512": "b686b535043bd7cb2e05bac788c6e6d3b311af0872d76e34b60ffef23f6826e950740c56493748cae8c709932c1860d4478adfd351bc8d57d41512cbccfd5f54",
+          "sha256": "990ff8ff3f4b0778e9923e6f92b184fc0d65de7ecd32b78296b528d2635ed193",
+          "sha1": "313752ef080a2c90ec6efa28a3f39c0060934ef4",
+          "md5": "848a35b63778106b4087c3156ee13379"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "squall-mocha-0.1.5-javadoc.jar",
+          "url": "squall-mocha-0.1.5-javadoc.jar",
+          "size": 325260,
+          "sha512": "86745df7ad61d28c25cb2a5666e69bb92a8675590e3aa8f6690a53cc9e30baa0000e92fa5ec2e7d10375f9588221ce03397ef26c87bcc2861291218c6432b2b2",
+          "sha256": "21b2c6a60f1eeb5c61309aad9b36828c4807bd5e26c479c12d5b819d7ae2a493",
+          "sha1": "1816dc65819f30933555f99d6eb4d5422561d92f",
+          "md5": "9de204d57601c9b2dd41d77a7be0b367"
+        }
+      ]
+    }
+  ]
+}

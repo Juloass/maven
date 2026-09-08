@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.juloass",
+    "module": "squall-core",
+    "version": "0.1.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass",
+          "module": "squall-mocha",
+          "version": {
+            "requires": "0.1.5"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "color",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "identifier",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "squall-core-0.1.5.jar",
+          "url": "squall-core-0.1.5.jar",
+          "size": 90337,
+          "sha512": "13d260bb63b01573e7f5b8120395c9c61489ac658c6867022808e8b0f88d5164d5775013eac0cdf8f48ca5aaa04a738cb254eb6c3fce91e49af302f127df8508",
+          "sha256": "283f5a9bde1f392a92f947067414f48ab9ad7e1b929008efc8ef4dbfad4a20a4",
+          "sha1": "d187941687861553e2201389c2f02d1ee68bd94e",
+          "md5": "761c67028af32221296455dfe73eeada"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass",
+          "module": "squall-mocha",
+          "version": {
+            "requires": "0.1.5"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "color",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "identifier",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "squall-core-0.1.5.jar",
+          "url": "squall-core-0.1.5.jar",
+          "size": 90337,
+          "sha512": "13d260bb63b01573e7f5b8120395c9c61489ac658c6867022808e8b0f88d5164d5775013eac0cdf8f48ca5aaa04a738cb254eb6c3fce91e49af302f127df8508",
+          "sha256": "283f5a9bde1f392a92f947067414f48ab9ad7e1b929008efc8ef4dbfad4a20a4",
+          "sha1": "d187941687861553e2201389c2f02d1ee68bd94e",
+          "md5": "761c67028af32221296455dfe73eeada"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "squall-core-0.1.5-sources.jar",
+          "url": "squall-core-0.1.5-sources.jar",
+          "size": 31201,
+          "sha512": "0557acb736ae6145ebb4e94fdafe2acbf5720e4d35ab663a9f974a13ca701aa15b0ff189da73628567d8a786ab3d4068afefdfef63eb86dd9e5b3a6a9cba3bf0",
+          "sha256": "11ebdc3e56b6348d384b6f4e4e0ae97dc076056976a45479054bbdf2cee5ef10",
+          "sha1": "667666c19f95c7946704dae1b6e67e7a8dd21a48",
+          "md5": "dc66c7cf6f2535116ff8cd624fea6c0d"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "squall-core-0.1.5-javadoc.jar",
+          "url": "squall-core-0.1.5-javadoc.jar",
+          "size": 169724,
+          "sha512": "e47438beeea77217db0b06fc73926634c32102f9a672d826441df4a0949b437ab81b986a6f94d4ebf816ca3662078e2fb1040a02392eb60fe3a9f9657dfc1118",
+          "sha256": "1477289cfa055e17d23f1ae26eb51236405726fb4466d9f087bc14017252146a",
+          "sha1": "e90202d6d97e201c53e50082c7ed23b20b1f862a",
+          "md5": "9c78281a6af5bbcad552b780620a937a"
+        }
+      ]
+    }
+  ]
+}
