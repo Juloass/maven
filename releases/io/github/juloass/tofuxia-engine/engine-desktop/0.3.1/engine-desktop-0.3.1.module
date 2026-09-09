@@ -1,0 +1,193 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.juloass.tofuxia-engine",
+    "module": "engine-desktop",
+    "version": "0.3.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass.tofuxia-engine",
+          "module": "engine-app",
+          "version": {
+            "requires": "0.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "engine-desktop-0.3.1.jar",
+          "url": "engine-desktop-0.3.1.jar",
+          "size": 47834,
+          "sha512": "6b274c12d7bb90c774f06a425d5a2c2b6e5a322e7c15d51a11ff52e1fb51a3d1675ddc3d80deda52cf2c376b3bd759dd9adc84f7690b1b7f4205dfb6d2488c0c",
+          "sha256": "3ae078be29b1974b5ea6026ebcdd847ec4262337511aa631357861402d136a87",
+          "sha1": "3edd62fe98fe1875b533cf6a155152991f9f5c81",
+          "md5": "6e51b7d86875b1ef7fad90bdcd1e68ef"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass.tofuxia-engine",
+          "module": "vulkan-renderer",
+          "version": {
+            "requires": "0.3.1"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "localization-core",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "localization-resource",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "audio-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "audio-openal",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "audio-resource",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "input-glfw",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.mojang",
+          "module": "brigadier",
+          "version": {
+            "requires": "1.0.18"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-bom",
+          "version": {
+            "requires": "3.4.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-glfw"
+        },
+        {
+          "group": "io.github.juloass.tofuxia-engine",
+          "module": "engine-app",
+          "version": {
+            "requires": "0.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "engine-desktop-0.3.1.jar",
+          "url": "engine-desktop-0.3.1.jar",
+          "size": 47834,
+          "sha512": "6b274c12d7bb90c774f06a425d5a2c2b6e5a322e7c15d51a11ff52e1fb51a3d1675ddc3d80deda52cf2c376b3bd759dd9adc84f7690b1b7f4205dfb6d2488c0c",
+          "sha256": "3ae078be29b1974b5ea6026ebcdd847ec4262337511aa631357861402d136a87",
+          "sha1": "3edd62fe98fe1875b533cf6a155152991f9f5c81",
+          "md5": "6e51b7d86875b1ef7fad90bdcd1e68ef"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "engine-desktop-0.3.1-sources.jar",
+          "url": "engine-desktop-0.3.1-sources.jar",
+          "size": 19327,
+          "sha512": "23e8cc7c8de798e5b594e0eaf42b13d5361f3acc47d220385681cae61c95732d9f4c33945cbe2189607f08fe1596ade2a0b07f430f9acddf659c5e46ff178093",
+          "sha256": "78427e856c05c5b26dfa3ef4571233f3e24342c71689732a4f2c61fb4a4420be",
+          "sha1": "3e7751fbacc5342ce14446f12ecfe89f5a276659",
+          "md5": "38bdd9c651a70e90ef94c36a108caffe"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "engine-desktop-0.3.1-javadoc.jar",
+          "url": "engine-desktop-0.3.1-javadoc.jar",
+          "size": 86075,
+          "sha512": "9b99eaf6a8966c7d8c73fcf91fe9ae78f762a50a79c39aca16bc3d49fdd647f0e65866274ee270805ae14aef5be0e54209efdbb448ecbfda9adc81298f3f6742",
+          "sha256": "4bb6ef396574b0e76c3151942042c1ff1f37a03e88d57b7520e96f341715d71c",
+          "sha1": "8dcdde0b43ba0367dc8d2b6955baaa4d9789672c",
+          "md5": "fe9690df73b0b34371788b36d1084a14"
+        }
+      ]
+    }
+  ]
+}

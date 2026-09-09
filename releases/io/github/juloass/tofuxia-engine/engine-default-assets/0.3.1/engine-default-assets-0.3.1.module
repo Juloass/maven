@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.juloass.tofuxia-engine",
+    "module": "engine-default-assets",
+    "version": "0.3.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass",
+          "module": "identifier",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "resource-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "resource-pack",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "engine-default-assets-0.3.1.jar",
+          "url": "engine-default-assets-0.3.1.jar",
+          "size": 493920,
+          "sha512": "7b9366f3395faaa8e28772cca9ad11b10f18dd5bd730c154a414284908cd54fe9bcece824fac51e8b56f4c6e449f7033dc67fd4a54bca660e08f9ca08b999643",
+          "sha256": "7b1109de424f58b2a4252fb908b016f41e8613695fbb2ef7d0727281e52b4b05",
+          "sha1": "3de611eded0db3c3df2c4b9a9f94f266a7098c47",
+          "md5": "362c87cac951df154fde23b1e99fe342"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.juloass",
+          "module": "resource-source-generated",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "identifier",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "resource-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.juloass",
+          "module": "resource-pack",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "engine-default-assets-0.3.1.jar",
+          "url": "engine-default-assets-0.3.1.jar",
+          "size": 493920,
+          "sha512": "7b9366f3395faaa8e28772cca9ad11b10f18dd5bd730c154a414284908cd54fe9bcece824fac51e8b56f4c6e449f7033dc67fd4a54bca660e08f9ca08b999643",
+          "sha256": "7b1109de424f58b2a4252fb908b016f41e8613695fbb2ef7d0727281e52b4b05",
+          "sha1": "3de611eded0db3c3df2c4b9a9f94f266a7098c47",
+          "md5": "362c87cac951df154fde23b1e99fe342"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "engine-default-assets-0.3.1-sources.jar",
+          "url": "engine-default-assets-0.3.1-sources.jar",
+          "size": 492832,
+          "sha512": "07b8de0144350ec975fa784336ee4da079dace418af866e3a1e757d4bbe36ba7320ee36a0f42e5c12a8d8b6cb575d8cd17d127a02e4a4197b4fb1ed68efb68e8",
+          "sha256": "433512078238e1d1fd5f66d13658ef5296774b0824f82729f029f130e0b15b4e",
+          "sha1": "3a4f812f5ddd08e842aaffb54cb7c2c91f3dadff",
+          "md5": "063448eec10625e17ab9f2fd843c2261"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "engine-default-assets-0.3.1-javadoc.jar",
+          "url": "engine-default-assets-0.3.1-javadoc.jar",
+          "size": 82682,
+          "sha512": "0a36a89bc4ab2be753894bac2c410c8c42760ca4eb0bd0f09df9af1c0eb5435cb0b771eb9bb32768296c2190673ec88a0649ac34dc68ca0788883bac6364d8c3",
+          "sha256": "837d2743d2917018382d9a7996376e1f5037e3fc4783dcad227c7d574879896b",
+          "sha1": "a62fec46ab0c03e0bc733ed31f810b8039d0b552",
+          "md5": "9380af5b04c3fbaadbc2ee7bd914873a"
+        }
+      ]
+    }
+  ]
+}
